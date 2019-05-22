@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_uModelStoreContainer" CdmEntityContainer="db_uEntities">
+    <EntitySetMapping Name="queueTbls">
+      <EntityTypeMapping TypeName="db_uModel.queueTbl">
+        <MappingFragment StoreEntitySet="queueTbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="fName" ColumnName="fName" />
+          <ScalarProperty Name="rValue1" ColumnName="rValue1" />
+          <ScalarProperty Name="rValue2" ColumnName="rValue2" />
+          <ScalarProperty Name="Value3" ColumnName="Value3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

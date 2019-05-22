@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_uModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="queueTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="bigint" />
+    <Property Name="fName" Type="nchar" MaxLength="10" />
+    <Property Name="rValue1" Type="nchar" MaxLength="10" />
+    <Property Name="rValue2" Type="nchar" MaxLength="10" />
+    <Property Name="Value3" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="db_uModelStoreContainer">
+    <EntitySet Name="queueTbl" EntityType="Self.queueTbl" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

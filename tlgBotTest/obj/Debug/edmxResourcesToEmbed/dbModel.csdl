@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_uModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="queueTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int64" />
+    <Property Name="fName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="rValue1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="rValue2" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Value3" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="db_uEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="queueTbls" EntityType="Self.queueTbl" />
+  </EntityContainer>
+</Schema>

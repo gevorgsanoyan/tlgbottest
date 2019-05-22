@@ -1,0 +1,16 @@
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\tlgBotTest.exe.config
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\tlgBotTest.exe
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\tlgBotTest.pdb
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\EntityFramework.dll
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\Newtonsoft.Json.dll
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\Telegram.Bot.dll
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\EntityFramework.xml
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\Newtonsoft.Json.xml
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\bin\Debug\Telegram.Bot.xml
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\obj\Debug\tlgBotTest.csproj.CoreCompileInputs.cache
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\obj\Debug\tlgBotTest.csproj.CopyComplete
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\obj\Debug\tlgBotTest.exe
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\obj\Debug\tlgBotTest.pdb
+D:\C_Sharp_projects\tlgBotTest\tlgBotTest\obj\Debug\tlgBotTest.csprojAssemblyReference.cache
